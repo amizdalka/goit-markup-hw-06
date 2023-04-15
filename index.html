@@ -557,6 +557,26 @@
                         </li>
                     </ul>
                 </div>
+
+                <form class="sign-in-form">
+                    <label class="sign-in-footer">
+                        <span class="sign-in-label"
+                            >Zapisz się do newslettera</span
+                        >
+                        <input
+                            type="email"
+                            placeholder="E-mail"
+                            class="sign-in-email"
+                            name="email"
+                        />
+                    </label>
+                    <button type="submit" class="sign-in">
+                        Zapisz się
+                        <svg width="24" height="24" class="icon-send">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
@@ -566,6 +586,81 @@
                         <use href="./images/icons.svg#icon-icon-close"></use>
                     </svg>
                 </button>
+                <form class="data-form">
+                    <h3 class="form-heading">
+                        Zostaw swoje dane w formularzu poniżej
+                    </h3>
+                    <label class="form-label">
+                        <span class="label-name">Imię</span>
+
+                        <div class="fill-form">
+                            <input
+                                type="text"
+                                name="name"
+                                class="name-input"
+                            /><svg height="18" width="18" class="fill-icon">
+                                <use
+                                    href="./images/icons.svg#icon-person"
+                                ></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <label class="form-label"
+                        ><span class="label-name">Telefon</span>
+                        <div class="fill-form">
+                            <input
+                                type="tel"
+                                name="phone"
+                                class="phone-input"
+                            />
+                            <svg height="18" width="18" class="fill-icon">
+                                <use
+                                    href="./images/icons.svg#icon-phone-black"
+                                ></use>
+                            </svg></div
+                    ></label>
+                    <label class="form-label"
+                        ><span class="label-name">Email</span>
+                        <div class="fill-form">
+                            <input
+                                type="email"
+                                name="email"
+                                class="email-input"
+                            /><svg height="18" width="18" class="fill-icon">
+                                <use
+                                    href="./images/icons.svg#icon-email-black"
+                                ></use>
+                            </svg></div
+                    ></label>
+                    <label class="form-label"
+                        ><span class="label-name">Komentarz</span>
+                        <textarea
+                            placeholder="Wprowadź tekst"
+                            name="comment"
+                            class="comment-input"
+                        ></textarea>
+                    </label>
+                    <label class="accept-label"
+                        ><input
+                            type="checkbox"
+                            class="form-checkbox"
+                            name="accept"
+                        />
+                        <span class="custom-checkbox"
+                            ><svg height="15" width="16">
+                                <use
+                                    href="./images/icons.svg#icon-icon-check"
+                                ></use></svg
+                        ></span>
+                        <span class="accept-check"
+                            >Oświadczam iż akceptuję
+                            <a href="" class="terms">Regulamin</a> i
+                            <a href="" class="terms">Politykę Prywatności</a
+                            >.</span
+                        ></label
+                    >
+                    <button type="submit" class="send">Wyślij</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
