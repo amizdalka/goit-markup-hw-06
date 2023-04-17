@@ -674,7 +674,8 @@ img {
 }
 .name-input:focus-within,
 .phone-input:focus-within,
-.email-input:focus-within {
+.email-input:focus-within,
+.comment-input:focus-within {
     border-color: var(--brand-color);
 }
 
